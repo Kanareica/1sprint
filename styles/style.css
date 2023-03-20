@@ -13,17 +13,27 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
+    border-color: red;
+    border-width: 2px;
     /* выше установили ограничения для секции */
   }
   
   /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
   .header__square-pic {
+    position: absolute;
+    top: 64px;
+    right: 0;
     height: 568px;
     width: 568px;
+    background-color: rgb(47,128,237);
+    border-color: red;
+    border-width: 2px;
   }
   
   /* и элемента с модификатором вида ключ-значение */
   .table__cell_theme_dark {
+    border-color: red;
+    border-width: 2px;
     width: 200px;
     color: white;
     margin-right: 0;
