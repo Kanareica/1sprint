@@ -10,8 +10,8 @@
 </head>
 <body>
   <div class="page">
-    <header class="header">
-        <div class="logo_place_header">
+    <header class="header header_flex_column">
+        <div class="logo logo_place_header">
             <img src="./images/logo_place_header.svg" alt="NO DATA" />
         </div>
         <div class="header__title">
@@ -20,17 +20,15 @@
         <div class="header__subtitle">
             <p>Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="">Узнать&rarr;</a></p>
         </div>
-        <div class="header__main-illustration">
-            <img src="./images/two_again.png" alt="NO DATA" />
-        </div>
+        <img src="./images/two_again.png" alt="NO DATA" class="header__main-illustration"/>
         <div class="header__square-pic">
         </div>
     </header>
     <main class="content">
-      <section class="description">
-        <div class="two-columns">
-            <div class="two-columns__brief">
-                <p>Главные проблемы в обучении</p>
+      <section class="description description_flex_row">
+        <div class="two-columns two-columns_flex_row">
+            <div class="two-columns__brief_flex_el">
+                <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             </div>
             <div class="two-columns__main-text">
                 <div class="two-columns__paragraph">
@@ -46,96 +44,54 @@
         </div>
       </section>
       <section class="digits">
-        <div class="section-title">
-            <h1>Цифры и факты</h1>
-        </div>
-        <div class="section-subtitle">
-            <h2>Про учёбу и мозг</h2>
-        </div>
+        <h1 class="digits__section-title">Цифры и факты</h1>
+        <h2 class="digits__section-subtitle section-subtitle_marging-top_little">Про учёбу и мозг</h2>
         <div class="table">
-            <div class="table__row">
+            <div class="table__row table__row_flex_row">
                 <div class="table__cell">
-                    <div class="table__heading">
-                        <h3>86 миллиардов</h3>
-                    </div>
-                    <div class="table__text">
-                        <p>Число нейронов в мозге человека</p>
-                    </div>
+                    <h3 class="table__heading">86 миллиардов</h3>
+                    <p class="table__text">Число нейронов в мозге человека</p>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading">
-                        <h3>2.1 миллиарда</h3>
-                    </div>
-                    <div class="table__text">
-                        <p>Число нуждающихся в повышении квалификации<br>Всемирный Банк, 2017</p>
-                    </div>
+                    <h3 class="table__heading">2.1 миллиарда</h3>
+                    <p class="table__text">Число нуждающихся в повышении квалификации</p>
+                    <p class="table__text">Всемирный Банк, 2017</p>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading">
-                        <h3>1000 терабайт</h3>
-                    </div>
-                    <div class="table__text">
-                        <p>Объём памяти человека</p>
-                    </div>
+                    <h3 class="table__heading">1000 терабайт</h3>
+                    <p class="table__text">Объём памяти человека</p>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading">
-                        <h3>500 триллионов</h3>
-                    </div>
-                    <div class="table__text">
-                        <p>Число ответственных за обучение нервных синапсов у взрослого человека</p>
-                    </div>
+                    <h3 class="table__heading">500 триллионов</h3>
+                    <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
                 </div>
             </div>
-            <div class="table__row">
+            <div class="table__row table__row_flex_row">
                 <div class="table__cell">
-                    <div class="table__heading">
-                        <h3>420 миллионов</h3>
-                    </div>
-                    <div class="table__text">
-                        <p>Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства<br>Всемирный Банк, 2017</p>
-                    </div>
+                    <h3 class="table__heading">420 миллионов</h3>
+                    <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+                    <p class="table__text">Всемирный Банк, 2017</p>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading">
-                        <h3>17–20 лет</h3>
-                    </div>
-                    <div class="table__text">
-                        <p>Пик обучаемости</p>
-                    </div>
+                    <h3 class="table__heading">17–20 лет</h3>
+                    <p class="table__text">Пик обучаемости</p>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading">
-                        <h3>1885 год</h3>
-                    </div>
-                    <div class="table__text">
-                        <p>Число нейронов в мозге человека</p>
-                    </div>
+                    <h3 class="table__heading">1885 год</h3>
+                    <p class="table__text">Число нейронов в мозге человека</p>
                 </div>
                 <div class="table__cell">
-                    <div class="table__heading">
-                        <h3>1889 год</h3>
-                    </div>
-                    <div class="table__text">
-                        <p>Открытие условного рефлекса</p>
-                    </div>
+                    <h3 class="table__heading">1889 год</h3>
+                    <p class="table__text">Открытие условного рефлекса</p>
                 </div>
             </div>
         </div>
       </section>
       <section class="feynman">
-        <div class="section-title">
-            <h1>Метод Фейнмана</h1>
-        </div>
-        <div class="section-subtitle">
-            <h2>Выучить и не забыть.</h2>
-        </div>
-        <div class="feynman__main-illustration">
-            <img src="./images/feynman.png" alt="NO DATA" />
-        </div>
-        <div class="feynman__link">
-            <a href="">Подробнее&rarr;</a>
-        </div>
+        <h1 class="feynman__section-title section-title_size_fixed">Метод<br>Фейнмана</h1>
+        <h2 class="feynman__section-subtitle section-subtitle_margin_top">Выучить и не забыть.</h2>
+        <img class="feynman__main-illustration" src="./images/feynman.png" alt="NO DATA" />
+        <a class="feynman__link" href="">Подробнее&rarr;</a>
       </section>
       <section class="kaufman">
         <div class="section-title_theme_dark">
@@ -238,7 +194,7 @@
     <footer class="footer">
         <div class="footer__columns">
             <div class="footer__column_content_copyright">
-                <div class="logo_place_footer">
+                <div class="logo logo_place_footer">
                     <img src="./images/logo_place_footer.svg" alt="NO DATA" />
                 </div>
                 <div class="footer__author">
